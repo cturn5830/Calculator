@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="wrapper">
+  <div id = "left">
+      <p>Bill</p>
+      <input id="input amount"></input>
+      <p>Select Tip %</p>
+    <div id="buttons">
+      <button class="percentBNT" onclick="fiveperc()">5%</button>
+      <button class="percentBNT" onclick="tenperc()">10%</button>
+      <button class="percentBNT" onclick="fiveteenperc()">15%</button>
+      <button class="percentBNT" onclick="twentyfiveperc()">25%</button>
+      <button class="percentBNT" onclick="fiftyperc()">50%</button>
+     <input class="customBNT" value="Custom" >
+    </div>
+      <p>number of People</p> 
+      <input>
+  </div>
+  <div id = "right">
+    <div>  
+    <p class = "RWT">Tip Amount</p> <p class="personTXT">/ person</p>
+  </div> 
+  <div>
+  <p class = "RWT">   Total </p><p class="personTXT">/ person </p>
+</div>
+Reset
+  </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+      <script src="index.js"></script>
+    </div>
+  </body>
+</html>
